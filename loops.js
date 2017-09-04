@@ -16,13 +16,14 @@ forLoop(strangeArray)
 
 
 function whileloop(n) {
-  return 'done'
-}
-
   let countdown = 10
   while (countdown > 0) {
     console.log(--countdown)
   }
+
+  return 'done'
+}
+
 
   whileloop(countdown)
 
