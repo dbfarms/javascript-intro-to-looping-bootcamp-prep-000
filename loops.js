@@ -14,14 +14,17 @@ for (let i = 0; i < 25; i++) {
 
 forLoop(strangeArray)
 
-function whileloop() {
-  let n = 10
-  while (n > 0) {
+function whileloop(n) {
+
+}
+
+  let countdown = 10
+  while (countdown > 0) {
     console.log(--n)
   }
   return "done"
 
-}
+
 
 
 
