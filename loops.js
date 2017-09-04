@@ -8,11 +8,13 @@ function forLoop(array) {
 
 
 function whileloop(n) {
-    while (n > 0) {
+  while (n > 0) {
     console.log(--n);
   }
   return 'done'
 }
+
+whileloop(n)
 
 function maybeTrue() {
   return Math.random() >= 0.5
