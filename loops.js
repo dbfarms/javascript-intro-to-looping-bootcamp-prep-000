@@ -14,7 +14,6 @@ function whileloop(n) {
   return 'done'
 }
 
-whileloop(n)
 
 function maybeTrue() {
   return Math.random() >= 0.5
