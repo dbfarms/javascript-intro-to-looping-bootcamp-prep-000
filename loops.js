@@ -1,15 +1,9 @@
-const strangeArray = [];
 
 function forLoop(array) {
-  return array
-}
-
-for (let i = 0; i < 25; i++) {
-  if (i === 1) {
-    strangeArray.push(`I am ${i} strange loop.`)
-  } else {
-    strangeArray.push(`I am ${i} strange loops.`)
+  for (let i = 0; i < 25; i++) {
+    array.push('I am ${i} strange loop ${i===0 ? \'\' : \'s\' }.')
     }
+  return array;
 }
 
 forLoop(strangeArray)
