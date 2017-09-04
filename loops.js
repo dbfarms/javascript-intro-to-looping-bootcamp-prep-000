@@ -6,7 +6,6 @@ function forLoop(array) {
   return array;
 }
 
-forLoop(strangeArray)
 
 
 function whileloop(n) {
