@@ -16,23 +16,11 @@ function whileloop(n) {
 }
 
 
-whileloop(countdown)
 
-
-
-
-
-
-function doWhileLoop() {
-  const testarray = []
-
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-
-  do {
-    array.shift()
+function doWhileLoop(array) {
+    do {
+    array.pop()
+    return array;
   } while (array.length > 0 && maybeTrue());
-  return array
 
 }
